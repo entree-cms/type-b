@@ -1,0 +1,39 @@
+/*!
+ * Entree CMS Admin Styles
+ * (Using on Bootstrap v4.3.1)
+ * ----------------
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * ----------------
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import "include/variables";
+@import "include/functions";
+@import "include/mixins";
+@import "include/reboot";
+
+@import "include/alert";
+@import "include/breadcrumb";
+@import "include/buttons";
+@import "include/form";
+@import "include/pagination";
+@import "include/tables";
+@import "include/text";
+
+@import "include/site-header";
+@import "include/main";
+@import "include/sidebar";
+@import "include/footer";
+
+// 2 column layout
+.main-sidebar {
+  display: flex;
+  flex-flow: row-reverse;
+  .main {
+    flex: 1;
+  }
+  .sidebar {
+    min-height: calc(100vh - 44px);
+  }
+}

@@ -1,0 +1,26 @@
+$maxWidth: 980px;
+
+$font-sm: (12 / 14) + rem;
+
+$spacer: 1.5rem;
+
+$colors: (
+  "white"   : #fff,
+  "black"   : #000,
+  "gray-100": #f8f9fa,
+  "gray-600": #6c757d,
+  "blue"    : #007bff,
+  "green"   : #28a745,
+  "cyan"    : #17a2b8,
+  "yellow"  : #ffc107,
+  "red"     : #dc3545,
+);
+
+$theme-colors: (
+  "primary"  : map-get($colors, "blue"    ),
+  "secondary": map-get($colors, "gray-600"),
+  "info"     : map-get($colors, "cyan"    ),
+  "success"  : map-get($colors, "green"   ),
+  "warning"  : map-get($colors, "yellow"  ),
+  "danger"   : map-get($colors, "red"     ),
+);

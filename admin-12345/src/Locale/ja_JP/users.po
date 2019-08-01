@@ -1,0 +1,65 @@
+msgid "Add New User"
+msgstr "新規追加"
+
+msgid "All Users"
+msgstr "ユーザー一覧"
+
+msgid "Are you sure you want to add new user?"
+msgstr "ユーザーの新規登録を行います。よろしいですか？"
+
+msgid "Are you sure you want to logout?"
+msgstr "ログアウトします。よろしいですか？"
+
+msgid "Edit User"
+msgstr "ユーザー編集"
+
+msgid "Email"
+msgstr "メールアドレス"
+
+msgid "First name"
+msgstr "名"
+
+msgid "Invalid username or password, try again"
+msgstr "ユーザー名かパスワードが違います"
+
+msgid "Last name"
+msgstr "姓"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "My profile"
+msgstr "マイプロフィール"
+
+msgid "Name"
+msgstr "氏名"
+
+msgid "Nickname"
+msgstr "ニックネーム"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Please choose users."
+msgstr "ユーザーを選択してください"
+
+msgid "Sign in"
+msgstr "サインイン"
+
+msgid "The user could not be saved."
+msgstr "ユーザーの登録ができませんでした"
+
+msgid "The user has been deleted."
+msgstr "ユーザーの削除が完了しました"
+
+msgid "The user has been saved."
+msgstr "ユーザーの登録が完了しました"
+
+msgid "The user has been updated."
+msgstr "ユーザーの変更が完了しました"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Users"
+msgstr "ユーザー"

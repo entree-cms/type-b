@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body, header, main, aside, footer,
+p, div, section,
+h1,h2,h3,h4,h5,h6,
+ol,ul,li,dl,dt,dd {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+}
+th, td {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+a, i, span, small {
+  display: inline;
+  font-size: inherit;
+}
+
+html {
+  color: #222;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.hidden {
+    display: none!important;
+}

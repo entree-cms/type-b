@@ -1,0 +1,35 @@
+msgid "Body"
+msgstr "本文"
+
+msgid "All Contacts"
+msgstr "お問い合わせ一覧"
+
+msgid "Are you sure you want to delete the following contact?\\n({0} {1} {2})"
+msgstr "下記のお問い合わせを削除します。よろしいですか？\\n({0} {1} {2})"
+
+msgid "Contact"
+msgstr "お問い合わせ"
+
+msgid "Contacts"
+msgstr "お問い合わせ"
+
+msgid "Contact detail"
+msgstr "お問い合わせ詳細"
+
+msgid "Name"
+msgstr "氏名"
+
+msgid "Note"
+msgstr "備考"
+
+msgid "Not found"
+msgstr "該当するお問い合わせはありません"
+
+msgid "The contact has been deleted"
+msgstr "問合せの削除が完了しました"
+
+msgid "The note has been saved"
+msgstr "備考の登録が完了しました"
+
+msgid "The note could not be saved"
+msgstr "備考の保存ができませんでした"

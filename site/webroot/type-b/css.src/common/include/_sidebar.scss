@@ -1,0 +1,61 @@
+.sidebar {
+  section + section {
+    margin-top: 20px;
+  }
+  h1 {
+    background-color: #ddd;
+    font-size: $font-sm;
+    margin-bottom: 7px;
+    padding: 5px;
+    text-align: center;
+  }
+  .content {
+    font-size: $font-sm;
+    padding: 0 5px;
+    * {
+      font-size: inherit;
+    }
+    a:link {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    li + li {
+      margin-top: 6px;
+    }
+  }
+  // Recently Posts
+  .recently {
+    .content {
+      padding: 0;
+    }
+    li + li {
+      margin-top: 3px;
+    }
+    a {
+      display: block;
+      line-height: 1.3;
+      padding: 5px;
+      &:hover {
+        background-color: #eee;
+        text-decoration: none!important;
+        > .title {
+          text-decoration: underline;
+        }
+      }
+      span {
+        display: block;
+      }
+      .date {
+        color: #666;
+        font-size: $font-sm;
+        line-height: 1.2;
+        margin-top: 2px;
+      }
+    }
+  }
+  .count {
+    font-size: .9em;
+  }
+}

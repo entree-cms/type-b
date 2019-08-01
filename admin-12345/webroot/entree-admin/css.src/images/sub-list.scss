@@ -1,0 +1,83 @@
+@import '../common/include/variables';
+
+html,
+body {
+  height: 100%;
+}
+
+// Drag and drop overlay
+.overlay {
+  display: none;
+  font-size: 24px;
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+  color: #fff;
+  text-align: center;
+  // flex
+  justify-content: center;
+  align-items: center;
+}
+
+.form-file {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: $win-sm;
+  input[type=file] {
+    display: none;
+  }
+  .action {
+    margin-bottom: 10px;
+  }
+  .message {
+    .max-size {
+      font-size: $font-sm;
+    }
+  }
+}
+
+// Image list
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  .image {
+    position: relative;
+    padding: 10px;
+    width: 25%;
+    img {
+      cursor: pointer;
+      width: 100%;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .action {
+      display: block;
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      .btn {
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid #fff;
+      }
+    }
+  }
+}
+
+// Load images button
+.load-img {
+  margin-top: 20px;
+  text-align: center;
+  button {
+    padding: 7px 10px;
+  }
+}

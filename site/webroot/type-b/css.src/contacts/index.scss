@@ -1,0 +1,48 @@
+// mixin
+@import '../common/include/mixin';
+@import '../common/include/form';
+
+main {
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 15px;
+  }
+
+  .dl-group {
+    display: table;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    dl {
+      display: table-row;
+      dt,
+      dd {
+        border: 4px solid #fff;
+        display: table-cell;
+        padding: .25em .5em;
+      }
+      dt {
+        background-color: #eee;
+        padding-left: 1em;
+        padding-top: 0.75em;
+        text-align: right;
+        vertical-align: top;
+        white-space: nowrap;
+      }
+      input,
+      textarea {
+        max-width: 550px;
+        width: 100%;
+      }
+      textarea {
+        $height: (10 * 1.3) + em;
+        height: calc(#{$height} + 2px);
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  .action {
+    text-align: center;
+  }
+}

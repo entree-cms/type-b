@@ -1,0 +1,26 @@
+@import 'variables';
+
+.required:after {
+  color: #c00;
+  content: '*';
+  font-weight: bold;
+  margin-left: 0.25em;
+}
+
+input:not([type=checkbox]),
+textarea {
+  border: 1px solid #ccc;
+  border-top-color: #aaa;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.3em;
+  padding: .5em;
+  width: 100%;
+}
+
+button {
+  background-color: #eee;
+  border: 1px solid #999;
+  font-size: $font-sm;
+  padding: .75em 1.5em;
+}

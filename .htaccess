@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond    %{REQUEST_URI}    !^/admin-12345
+    RewriteRule    (.*)    site/$1 [L]
+</IfModule>

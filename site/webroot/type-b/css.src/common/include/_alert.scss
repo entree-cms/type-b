@@ -1,0 +1,30 @@
+.alert {
+  position: relative;
+  padding: 1em 1.25em;
+  margin-bottom: $spacer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  p + p {
+    margin-top: .75em;
+  }
+}
+.alert-sm {
+  margin-bottom: $spacer / 3;
+  padding: .5em;
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+@each $color, $value in $theme-colors {
+  // Colors
+  $bg    : theme-color-level($color, -10);
+  $border: theme-color-level($color,  -9);
+  $font  : theme-color-level($color,   4);
+  .alert-#{$color} {
+    background-color: $bg;
+    border-color: $border;
+    color: $font;
+  }
+}

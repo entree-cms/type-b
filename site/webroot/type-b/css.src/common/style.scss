@@ -1,0 +1,141 @@
+/*!
+ * Entree Blog Mk-1 Styles
+ * (Base on Bootstrap v4.3.1)
+ * ----------------
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * ----------------
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import './include/mixin';
+@import './include/functions';
+@import './include/variables';
+@import './include/alert';
+@import './include/pagination';
+@import './include/sidebar';
+@import './include/text';
+
+* {
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html,body,header,main,aside,footer,
+div,p,section,
+h1,h2,h3,h4,h5,h6,
+ol,ul,li,dl,dt,dd
+{
+  display: block;
+  font-size: 1rem;
+  margin:0 auto;
+  padding: 0;
+}
+th, td {
+  font-size: 1rem;
+}
+a, i, span, small {
+  display: inline;
+  font-size: inherit;
+  padding: 0;
+}
+small {
+  font-size: (12 / 16) + rem;
+}
+
+html {
+  color: #333;
+  font-size: 16px;
+}
+
+/**
+ * Header
+ */
+.site-header {
+  background-color: #ececec;
+  margin-bottom: 25px;
+  .container {
+    margin: 0 auto;
+    max-width: $maxWidth;
+    padding: 0 10px;
+    width: 100%;
+  }
+  .title {
+    color: #333;
+    font-size: 28px;
+    letter-spacing: 6px;
+    padding: 20px 5px;
+  }
+  .nav {
+    background-color: #444;
+    ul {
+      @include clearfix;
+      margin: 0 auto;
+      max-width: $maxWidth;
+      padding: 0 10px;
+      width: 100%;
+      li {
+        display: block;
+        float: left;
+        a {
+          color: #fff;
+          display: block;
+          padding: 8px 15px;
+          text-decoration: none;
+          &:hover {
+            background-color: #555;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// 2 column
+body > .container {
+  display: flex;
+  margin: 0 auto;
+  max-width: $maxWidth;
+  padding: 0 10px;
+  width: 100%;
+  // 2column
+  .main {
+    flex: 1;
+  }
+  .sidebar {
+    margin-left: 15px;
+    width: 200px;
+  }
+}
+@include max(640px) {
+  body > .container {
+    display: block;
+    .sidebar {
+      margin: 40px 0 0;
+      width: 100%;
+    }
+  }
+}
+
+
+/**
+ * Main contents.
+ */
+.main {
+}
+
+
+
+/**
+ * Footer
+ */
+footer {
+  border-top: 1px dotted #ccc;
+  margin-top: 35px;
+  padding: 15px 10px 30px;
+  text-align: center;
+  small {
+    color: #666;
+  }
+}

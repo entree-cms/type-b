@@ -1,0 +1,29 @@
+msgid "Are you sure you want to delete the image?"
+msgstr "画像を削除します。よろしいですか？"
+
+msgid "Choose file"
+msgstr "ファイル選択"
+
+msgid "Choose image"
+msgstr "画像選択"
+
+msgid "File name"
+msgstr "ファイル名"
+
+msgid "Load more images"
+msgstr "もっと見る"
+
+msgid "Image deletion failed."
+msgstr "画像の削除ができませんでした"
+
+msgid "Image upload failed."
+msgstr "画像のアップロードができませんでした"
+
+msgid "Please choose file."
+msgstr "ファイルを選択してください"
+
+msgid "Requested file size limit is greater than maximum."
+msgstr "ファイルのサイズが制限を超えています"
+
+msgid "You can upload by drag & drop."
+msgstr "ドラッグ＆ドロップでアップロード"

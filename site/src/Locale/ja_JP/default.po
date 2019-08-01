@@ -1,0 +1,20 @@
+msgid "Fix the following errors"
+msgstr "入力内容に誤りがないかご確認ください"
+
+msgid "Please enter {0}"
+msgstr "{0}を入力してください"
+
+msgid "Please enter {0} characters or less"
+msgstr "{0}字以内で入力してください"
+
+msgid "Return to home"
+msgstr "TOPページへ戻る"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "The E-mail address entered is invalid"
+msgstr "メールアドレスの形式を確認してください"
+
+msgid "The service is temporarily unavailable"
+msgstr "サービスが一時的に利用できなくなっています"

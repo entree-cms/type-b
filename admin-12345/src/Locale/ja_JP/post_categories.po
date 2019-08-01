@@ -1,0 +1,41 @@
+msgid "Add New Category"
+msgstr "カテゴリ新規登録"
+
+msgid "Are you sure you want to add new category?"
+msgstr "カテゴリーの新規登録を行います。よろしいですか？"
+
+msgid "Category"
+msgstr "カテゴリ"
+
+msgid "Categories"
+msgstr "カテゴリ"
+
+msgid "Description"
+msgstr "概要"
+
+msgid "Edit Category"
+msgstr "カテゴリ編集"
+
+msgid "Name"
+msgstr "カテゴリ名"
+
+msgid "No category"
+msgstr "未登録です"
+
+msgid "Not found"
+msgstr "該当するカテゴリはありません"
+
+msgid "Parent category"
+msgstr "親カテゴリ"
+
+msgid "The category could not be saved."
+msgstr "カテゴリーの保存ができませんでした"
+
+msgid "The category has been saved."
+msgstr "カテゴリーの登録が完了しました"
+
+msgid "The category has been updated."
+msgstr "カテゴリーの変更が完了しました"
+
+msgid "URL Name"
+msgstr "URL名"

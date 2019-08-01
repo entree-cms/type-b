@@ -7,7 +7,7 @@ Entree CMS type B
 # Installation
 ## 1. Run  "composer install" and "npm i".
 ```sh
-$ cd /path/to/enree-cms/
+$ cd /path/to/entree-cms/
 $ composer install
 $ npm i
 ```
@@ -21,7 +21,7 @@ You need edit **/.env**.
 Entree CMS has migration files. You can initialize the database with following command.
 
 ```sh
-$ cd /path/to/enree-cms/admin-12345
+$ cd /path/to/entree-cms/admin-12345
 $ bin/cake migrations migrate
 $ bin/cake migrations seed
 ```

@@ -1,0 +1,89 @@
+@import "../common/include/mixins";
+
+main > form {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.form-container {
+  display: flex;
+  display: -webkit-flex;
+  .form-main {
+    -webkit-flex: 1;
+    flex: 1;
+    padding-right: 25px;
+  }
+  .form-side {
+    width: 200px;
+  }
+}
+
+// Date
+.form-date {
+  $inputTimeWidth: 65px;
+  .form-group-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    .input-date {
+      width: calc(100% - #{$inputTimeWidth} - 5px);
+    }
+    .input-time {
+      width: $inputTimeWidth;
+    }
+  }
+}
+
+// Category
+.form-category {
+  label {
+    display: block;
+    + label {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+// Eyecatch
+.form-eyecatch {
+  .alert-secondary {
+    margin-bottom: 7px;
+  }
+  .eyecatch {
+    margin-bottom: 10px;
+    .img-eyecatch {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    input[type=text] {
+      width: 100%;
+    }
+  }
+  .btn {
+    margin-bottom: 5px;
+    padding: 7px 10px;
+  }
+}
+
+// Thumbnail
+.form-thumb {
+  .alert-secondary {
+    margin-bottom: 7px;
+  }
+  .thumb {
+    margin-bottom: 10px;
+    .img-thumb {
+      display: block;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    input[type=text] {
+      width: 100%;
+    }
+  }
+  .btn {
+    margin-bottom: 5px;
+    padding: 7px 10px;
+  }
+}

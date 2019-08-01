@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+script_dir=$(cd $(dirname $0); pwd)
+site_dir=$(cd $(dirname $script_dir); pwd)
+vendor_dir="$(cd $(dirname $site_dir); pwd)/vendor"
+
+# Run PHPUnit
+${vendor_dir}/bin/phpunit --colors=always -c ${site_dir}/phpunit.xml.dist

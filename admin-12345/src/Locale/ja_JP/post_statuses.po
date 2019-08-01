@@ -1,0 +1,5 @@
+msgid "Draft"
+msgstr "下書き"
+
+msgid "Published"
+msgstr "公開"

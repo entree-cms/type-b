@@ -1,0 +1,80 @@
+msgid "Abstract"
+msgstr "概要"
+
+msgid "Add New"
+msgstr "新規投稿"
+
+msgid "Add New Post"
+msgstr "新規投稿"
+
+msgid "All Posts"
+msgstr "投稿一覧"
+
+msgid "Are you sure you want to add new post?"
+msgstr "記事の新規登録を行います。よろしいですか？"
+
+msgid "Body"
+msgstr "本文"
+
+msgid "Choose image"
+msgstr "画像選択"
+
+msgid "Edit Post"
+msgstr "投稿編集"
+
+msgid "Eyecatch"
+msgstr "アイキャッチ"
+
+msgid "Eyecatch alt"
+msgstr "アイキャッチ（Alt）"
+
+msgid "Now"
+msgstr "現在の日時で登録"
+
+msgid "Not found"
+msgstr "該当する投稿はありません"
+
+msgid "Please choose posts."
+msgstr "投稿を選択してください"
+
+msgid "Posts"
+msgstr "投稿"
+
+msgid "Rank"
+msgstr "表示順"
+
+msgid "Recently posts"
+msgstr "最新の投稿"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "The post has been deleted."
+msgstr "投稿の削除が完了しました"
+
+msgid "The post has been saved."
+msgstr "投稿の登録が完了しました"
+
+msgid "The post has been updated."
+msgstr "投稿の変更が完了しました"
+
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+msgid "The post could not be saved."
+msgstr "投稿の登録ができませんでした"
+
+msgid "Thumbnail alt"
+msgstr "サムネイル（Alt）"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "URL Name"
+msgstr "URL名"
+
+msgid "Visiblity"
+msgstr "公開状態"
+
+msgid "Writer"
+msgstr "投稿者"

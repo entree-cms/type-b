@@ -1,0 +1,71 @@
+msgid "Action"
+msgstr "操作"
+
+msgid "Add New"
+msgstr "新規登録"
+
+msgid "Are you sure you want to delete \"{0}\"?"
+msgstr "「{0}」を削除します。よろしいですか？"
+
+msgid "Are you sure you want to update?"
+msgstr "入力された内容に変更します。よろしいですか？"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Maximum file size: about {0}"
+msgstr "最大ファイルサイズ: 約{0}"
+
+msgid "Modified"
+msgstr "更新日時"
+
+msgid "Please check your entries."
+msgstr "入力内容を確認してください"
+
+msgid "Please enter {0}"
+msgstr "{0}を入力してください"
+
+msgid "Please enter {0} characters or less"
+msgstr "{0}字以内で入力してください"
+
+msgid "Please enter only if you want to change."
+msgstr "変更する場合のみ入力してください"
+
+msgid "Please login again."
+msgstr "再度ログインしてください"
+
+msgid "Please press the delete button again"
+msgstr "削除ボタンをもう一度押してください";
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Save"
+msgstr "登録"
+
+msgid "This {0} can not be used."
+msgstr "この{0}は使用できません"
+
+msgid "This {0} is already in use."
+msgstr "この{0}は既に使用されています"
+
+msgid "View"
+msgstr "詳細"
+
+msgid "View site"
+msgstr "サイトを開く"
+
+msgid "You can upload files by drag-and-drop"
+msgstr "ドラッグアンドドロップでもアップロードできます"
+
+msgid "{0} can not be used."
+msgstr "{0} は使用できません"

@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+script_dir=$(cd $(dirname $0); pwd)
+admin_dir=$(cd $(dirname $script_dir); pwd)
+vendor_dir="$(cd $(dirname $admin_dir); pwd)/vendor"
+
+# Run code sniffer
+${vendor_dir}/bin/phpcbf -p --colors --standard=${vendor_dir}/cakephp/cakephp-codesniffer/CakePHP ${admin_dir}/src ${admin_dir}/tests

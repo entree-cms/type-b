@@ -1,0 +1,14 @@
+@import '../common/include/post-detail';
+
+.prev-post,
+.next-post {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  margin-top: 3rem;
+  padding: 1em;
+}
+
+.prev-post + .next-post {
+  border-top: 0;
+  margin-top: 0;
+}

@@ -1,0 +1,14 @@
+form {
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.form-last-name {
+  float: left;
+  width: calc(50% - 3px);
+}
+
+.form-first-name {
+  float: right;
+  width: calc(50% - 3px);
+}

@@ -1,0 +1,26 @@
+msgid "Are you sure you want to send message?"
+msgstr "お問い合わせ内容を送信します。よろしいですか？"
+
+msgid "Body"
+msgstr "内容"
+
+msgid "Contact"
+msgstr "お問い合わせ"
+
+msgid "Contact from website"
+msgstr "Webサイトよりお問い合わせ"
+
+msgid "E-mail"
+msgstr "メールアドレス"
+
+msgid "Failed to send message"
+msgstr "お問い合わせの送信ができませんでした"
+
+msgid "Name"
+msgstr "お名前"
+
+msgid "other E-mail address"
+msgstr "別のメールアドレス"
+
+msgid "Your message has been sent"
+msgstr "メッセージの送信が完了しました"

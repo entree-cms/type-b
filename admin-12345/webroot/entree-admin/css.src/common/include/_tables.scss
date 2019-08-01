@@ -1,0 +1,83 @@
+$border-width: 1px;
+$border-color: #bbb;
+
+.table {
+  background-color: #fff;
+  border-collapse: collapse;
+  border-bottom: $border-width solid $border-color;
+  margin: 0 auto $spacer;
+
+  th,
+  td {
+    border-top: $border-width solid $border-color;
+    padding: .5rem .75rem;
+    vertical-align: middle;
+  }
+
+  thead th {
+    background-color: #e9e9e9;
+    border-bottom: 3px double $border-color;
+    text-shadow: 1px 1px #fff;
+  }
+
+  tbody + tbody {
+    border-top: (2 * $border-width) solid $border-color;
+  }
+
+  .td-padding-sm {
+    padding: .25em;
+  }
+}
+
+
+// Border versions
+//
+// Add or remove borders all around the table and between all the columns.
+
+.table-bordered {
+  border: $border-width solid $border-color;
+
+  th,
+  td {
+    border: $border-width solid $border-color;
+  }
+
+  thead {
+    th,
+    td {
+      border-bottom: 3px double $border-color;
+    }
+  }
+
+  tbody {
+    th {
+      background-color: #eee;
+      text-align: right;
+    }
+  }
+}
+
+.table-borderless {
+  th,
+  td,
+  thead th,
+  tbody + tbody {
+    border: 0;
+  }
+}
+
+// Zebra-striping
+//
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+.table-striped {
+  tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+}
+
+// Hover effect
+//
+// Placed here since it has to come after the potential zebra striping
+.table-hover tbody tr:hover {
+  background-color: #ffc;
+}

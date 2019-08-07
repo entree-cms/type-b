@@ -3,7 +3,7 @@
     <h1><?= h($post->title) ?></h1>
     <ul class="meta">
       <li class="date">
-        <?= $post->date->i18nFormat('yyyy年M月d日') ?>
+        <?= $post->date->i18nFormat('YYYY.M.d') ?>
       </li>
       <li class="categories">
         <?= $post->categories ?>

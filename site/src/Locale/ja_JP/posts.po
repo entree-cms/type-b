@@ -13,6 +13,9 @@ msgstr "カテゴリー"
 msgid "Not found"
 msgstr "該当する投稿はありません"
 
+msgid "Not posted yet"
+msgstr "まだ投稿はありません"
+
 msgid "Posts"
 msgstr "投稿一覧"
 

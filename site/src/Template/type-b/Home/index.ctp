@@ -6,6 +6,6 @@
   <?= $this->element('Blog/post_detail'); ?>
 <?php else: ?>
   <div class="alert alert-secondary text-center">
-    公開中の投稿はありません
+    <?= __d('posts', 'Not posted yet') ?>
   </div>
 <?php endif; ?>

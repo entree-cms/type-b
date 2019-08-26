@@ -48,6 +48,7 @@ class CategoriesCell extends Cell
                     'PostCategories.id IN' => array_keys($countList),
                     'PostCategories.deleted IS NULL'
                 ])
+                ->order(['PostCategories.name' => 'ASC'])
                 ->all();
         }
         $this->set(compact('categories'));

@@ -43,6 +43,7 @@ themes.filter(theme => {
 // Run initial tasks
 gulp.task('default', () => {
   themes.filter(theme => {
+    gulp.watch(`./${theme.dir}/js.src/**/*.js`, gulp.task('compile-js'));
     gulp.watch(`./${theme.dir}/js.src/**/*.ts`, gulp.task('compile-js'));
     gulp.watch(`./${theme.dir}/css.src/**/*.scss`, gulp.task(`compile-sass-${theme.name}`));
   });

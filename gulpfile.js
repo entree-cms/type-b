@@ -3,7 +3,6 @@ const webpackConfig = require("./webpack.config.js");
 
 // Modules
 const gulp = require("gulp");
-const gulpPlumber = require("gulp-plumber");
 const gulpSass = require("gulp-sass");
 const webpack = require("webpack");
 const webpackStream = require("webpack-stream");
@@ -17,9 +16,9 @@ const themes = [
 
 // Task of compiling js
 gulp.task('compile-js', () => {
-  return gulp.src('/*/webroot/**/*.ts') 
-    .pipe(gulpPlumber())
-    .pipe(webpackStream(webpackConfig, webpack))
+  return webpackStream(webpackConfig, webpack).on("error", function(e) {
+      this.emit("end");
+    })
     .pipe(gulp.dest(__dirname));
 });
 

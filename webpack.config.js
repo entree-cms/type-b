@@ -12,10 +12,16 @@ const themes = [
 const entries = {};
 const reportFiles = [];
 themes.filter(theme => {
-  const srcFiles = `./${theme.dir}/js.src/entries/**/*.ts`;
+  const srcFiles = `./${theme.dir}/js.src/entries/**/*.*`;
   reportFiles.push(srcFiles);
   glob.sync(srcFiles).map(function (file) {
-    const key = file.replace("js.src/entries/", "js/").replace(/ts$/, 'js');
+    const ext = file.substr(-3);
+    let key = file.replace("js.src/entries/", "js/");
+    if (ext === ".ts") {
+      key = key.replace(/ts$/, "js")
+    } else if (ext !== ".js") {
+      return true;
+    }
     entries[key] = file;
   });
 });

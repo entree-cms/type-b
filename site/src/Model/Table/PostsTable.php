@@ -125,8 +125,8 @@ class PostsTable extends Table
                 ]
             ])
             ->order([
-                'Posts.date' => 'DESC',
-                'Posts.modified' => 'DESC'
+                'Posts.date' => 'ASC',
+                'Posts.modified' => 'ASC'
             ])
             ->first();
     }

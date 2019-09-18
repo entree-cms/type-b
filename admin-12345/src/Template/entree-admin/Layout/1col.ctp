@@ -12,7 +12,7 @@
   ]) ?>
   <?= $this->fetch('css') ?>
   <?= $this->Html->script([
-    'common/jquery',
+    'lib/jquery/jquery.min',
   ]) ?>
   <?= $this->fetch('script') ?>
   <script>

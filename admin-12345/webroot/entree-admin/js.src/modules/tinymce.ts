@@ -30,8 +30,8 @@ export const init = (addOptions) => {
         icon: 'image',
         tooltip: 'Insert Image',
         onAction: () => {
-          const options = 'width=550,height=720,scrollbars=yes';
-          subwin = window.open(`${SITE_ROOT}images/sub-list`, 'sub-img', options);
+          const options:string = 'width=550,height=720,scrollbars=yes';
+          const subwin:any = window.open(`${SITE_ROOT}images/sub-list`, 'sub-img', options);
           subwin.focus();
         }
       });

@@ -93,7 +93,10 @@ class BlogController extends AppController
         }
 
         $query = $this->Posts->find()
-            ->contain(['PostCategories'])
+            ->contain([
+                'PostCategories',
+                'Thumbs'
+            ])
             ->where([
                 'Posts.id IN' => $this->PostsPostCategories->findByPostCategoryId($category->id)->select('post_id'),
                 'Posts.post_status_id' => POST_STATUS_PUBLISHED,

@@ -17,7 +17,7 @@ class PostsController extends AppController
     /**
      * The number of rows per page in index action.
      */
-    const POST_LIMIT = 1;
+    const POST_LIMIT = 10;
 
     // *********************************************************
     // * Actions

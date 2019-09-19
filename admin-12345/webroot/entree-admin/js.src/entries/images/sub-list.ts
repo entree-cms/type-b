@@ -36,7 +36,7 @@ $(document).on("click", '[data-class="image"]', (event) => {
   const img: HTMLImageElement = event.target;
   const data = JSON.stringify({
     imgId: $(img).data('id'),
-    src: $(img).prop('src')
+    src: $(img).attr('src')
   });
   const origin = `${ location.protocol }//${ location.hostname }`;
   window.opener.postMessage(data, origin);

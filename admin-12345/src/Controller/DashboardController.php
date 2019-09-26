@@ -24,7 +24,7 @@ class DashboardController extends AppController
     public function index()
     {
         $this->loadModel('Posts');
-        $recentlyPosts = $this->Posts->find()
+        $latestPosts = $this->Posts->find()
             ->contain([
                 'PostCategories',
                 'PostStatuses',
@@ -37,7 +37,7 @@ class DashboardController extends AppController
             ])
             ->limit(3)
             ->all();
-        $this->set(compact('recentlyPosts'));
+        $this->set(compact('latestPosts'));
 
         $this->setPageTitle(__('Dashboard'));
     }

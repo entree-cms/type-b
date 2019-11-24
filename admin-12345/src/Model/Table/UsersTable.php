@@ -139,6 +139,23 @@ class UsersTable extends Table
     }
 
     // *********************************************************
+    // * Custom finder methods
+    // *********************************************************
+    /**
+     * Authentication
+     *
+     * @param \Cake\ORM\Query $query Query object
+     * @param array $options Options
+     * @return \Cake\ORM\Query
+     */
+    public function findAuth(Query $query, array $options)
+    {
+        $query->where(['Users.deleted IS NULL']);
+
+        return $query;
+    }
+
+    // *********************************************************
     // * User-defined public functions
     // *********************************************************
     /**

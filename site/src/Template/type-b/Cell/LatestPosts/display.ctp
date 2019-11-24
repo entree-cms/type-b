@@ -1,6 +1,6 @@
 <?php if (count($posts) > 0) : ?>
-  <section class="recently">
-    <h1><?= __d('posts', 'Recently posts') ?></h1>
+  <section class="latest-posts">
+    <h1><?= __d('posts', 'Latest posts') ?></h1>
     <div class="content">
       <ul>
         <?php foreach ($posts as $post) : ?>

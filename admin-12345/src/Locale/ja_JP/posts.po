@@ -43,7 +43,7 @@ msgstr "投稿"
 msgid "Rank"
 msgstr "表示順"
 
-msgid "Recently posts"
+msgid "Latest posts"
 msgstr "最新の投稿"
 
 msgid "Status"

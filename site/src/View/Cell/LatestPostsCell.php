@@ -4,9 +4,9 @@ namespace SiteApp\View\Cell;
 use Cake\View\Cell;
 
 /**
- * Recently posts cell.
+ * Latest posts cell.
  */
-class RecentlyPostsCell extends Cell
+class LatestPostsCell extends Cell
 {
     /**
      * Default display method.

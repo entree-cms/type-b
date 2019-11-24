@@ -19,5 +19,5 @@ msgstr "まだ投稿はありません"
 msgid "Posts"
 msgstr "投稿一覧"
 
-msgid "Recently posts"
+msgid "Latest posts"
 msgstr "最新の投稿"

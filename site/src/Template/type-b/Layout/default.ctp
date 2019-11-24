@@ -38,7 +38,7 @@
       <?= $this->fetch('content') ?>
     </main>
     <aside class="sidebar">
-      <?= $this->cell('RecentlyPosts') ?>
+      <?= $this->cell('LatestPosts') ?>
 
       <?= $this->cell('Categories') ?>
 

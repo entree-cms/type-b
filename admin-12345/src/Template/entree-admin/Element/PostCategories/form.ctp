@@ -22,7 +22,7 @@
   <?= $this->Alert->error(@$errors['post_category_id']) ?>
   <select name="post_category_id" id="select-parent-category" class="form-control">
     <option value="">-</option>
-    <?= $this->FormPlus->options(['options' => $postCategoryList, 'default' => $defaults['post_category_id']]) ?>
+    <?= $this->FormPlus->options(['options' => $postCategoryList, 'default' => @$defaults['post_category_id']]) ?>
   </select>
 </div>
 

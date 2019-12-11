@@ -28,7 +28,13 @@ html {
 }
 
 a {
+  color:#006EDD;
   text-decoration: none;
+
+  &:visited {
+    color: #529;
+  }
+
   &:hover {
     text-decoration: underline;
   }

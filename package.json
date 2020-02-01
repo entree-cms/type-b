@@ -11,15 +11,15 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.3.31",
-    "@types/jqueryui": "^1.12.9",
+    "@types/jqueryui": "^1.12.10",
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.3",
-    "webpack": "^4.41.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-stream": "^5.2.1"
   }

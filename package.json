@@ -16,7 +16,6 @@
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "kind-of": "^6.0.3",
     "node-sass": "^4.13.1",
     "ts-loader": "^6.2.2",
     "typescript": "^3.8.3",

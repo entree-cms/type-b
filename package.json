@@ -7,20 +7,20 @@
     "fs-extra": "^8.1.0",
     "jquery": "^3.5.1",
     "jquery-ui-dist": "^1.12.1",
-    "tinymce": "^5.2.2"
+    "tinymce": "^5.4.1"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.38",
-    "@types/jqueryui": "^1.12.10",
+    "@types/jquery": "^3.5.0",
+    "@types/jqueryui": "^1.12.13",
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
     "node-sass": "^4.14.1",
     "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.7",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^3.3.12",
     "webpack-stream": "^5.2.1"
   }
 }

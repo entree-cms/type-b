@@ -10,7 +10,7 @@
     "tinymce": "^5.4.1"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.0",
+    "@types/jquery": "^3.5.1",
     "@types/jqueryui": "^1.12.13",
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
@@ -19,7 +19,7 @@
     "node-sass": "^4.14.1",
     "ts-loader": "^6.2.2",
     "typescript": "^3.9.7",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-stream": "^5.2.1"
   }
